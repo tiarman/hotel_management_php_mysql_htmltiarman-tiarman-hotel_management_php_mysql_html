@@ -1,0 +1,24 @@
+.resAlign{
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+    
+    
+}
+.foodAlign{
+    float: left;
+     margin: 20px;
+     text-align: center;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    padding: 20px;
+    margin-left: 60px;
+    text-decoration: none;
+    color: black;
+}
+.foodAlign img{
+    width: 200px;
+}
+.foodAlign:hover{
+    background-color: aqua;
+    cursor: pointer;
+}

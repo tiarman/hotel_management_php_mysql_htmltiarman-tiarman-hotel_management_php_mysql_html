@@ -4,13 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- ========== Bootstrap ========== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <!-- ========== Font ========== -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <!-- ========== ICON ========== -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   <!-- ========== Font End ========== -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
@@ -21,241 +24,260 @@
 <body>
 
   <!-- ========== HEADER ========== -->
-
-
-  <header>
-    <nav class="nav-position">
-      <div class="topnav">
-        <img src="./image/logo.png" alt="">
-        <div class="topnav-right">
-          <a href="#Home">Home</a>
-          <a href="#about">About</a>
-          <a href="#about">Log In</a>
+  <section class="section-back">
+  <div class="head-align" >
+    <div class="bubble">
+        <!-- <img src="/image/wave.svg" class="bubble1"> -->
+        
+    </div>
+    <div class="header-container">
+    <div class="left-div">
+        <div class="left-wrapper">
+            <h1 class="hotelLogo">F</h1>
         </div>
+    </div>
+    <div class="right-div">
+        <div class="nav-menu">
+            <ul class="nav-items">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#book-destination">BOOKING</a></li>
+                <li><a href="#services-destination">SERVICES</a></li>
+                <li><a href="#contact-destination">CONTACT</a></li>
+                <li><a href="Components/Admin/index.html">ADMIN</a></li>
+                <li><a href="Components/User/index.html"> USER</a></li>
+                <li><a class="login-align" href="Components/LogIn/index.html">LOGIN</a></li>
+            </ul>
+
+            <ul class="social-media">
+                <li><a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/" target="blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.whatsapp.com/?lang=en" target="blank"><i class="fa fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="content-text">
+              <h2 class="text-warning font-family1">WELCOME TO</h2>
+              <h1 class="font-family1">F-HOTEL 71</h1>
+                <p>If you are looking for a holiday destination in Asia, then Bangladesh is the place to go, offering something for everyone. Agoda.com offers the best prices for hotels in Bangladesh.</p>
+                <a href="Components/Bookings/index.html"> <button><i class="fa fa-shopping-cart"> </i></span>BOOK NOW</button><span></span> </a>
+
+                  <div class="head-service-align">
+                    <p><i class="fa fa-wifi"></i>  ENJOY FREE WI-FI</p>
+                  <p><i class="fa fa-tv"></i>  CABLE TELEVISION</p>
+                  <p><i class="fa fa-tv"></i> RASTURENT</p>
+                  </div>
+            </div>
+
+          
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+
+<!-- ========== Booking Card Section ========== -->
+
+
+<section class="card-container">
+  <h2 id="book-destination" class="text-center">Booking Room</h2>
+  <div class="container">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+          <div class="card shop-card h-100 shadow">
+              <img src="image/1.png" class="card-img-center" alt="...">
+              <div class="card-body text-center">
+                  <h5 class="card-title font-family1">Family Room</h5>
+                </div>
+
+
+                <div class="card-footer shop-card-footer d-flex justify-content-between">
+                  <h1 class="text-warning">৳3000</h1>
+                  <a href="./Components/BookingDetails/Details1/index.html" class="booking-buttons btn btn-warning">
+                    
+                     <i class="fa fa-shopping-cart"> Book Now</i></a>
+              </div>
+             
+
+          </div>
       </div>
-    </nav>
-    <div class="header-img">
-      <img src="./image/img_mountains_wide.png" alt="Snow" style="width:100%; height: 400px">
-      <div class="centered">
-        <h1>Hotel Del Luna</h1>
-        <h2>A Very Beautiful Expensive Hotel In The World</h2>
-        <button class="header-button">Book Now >></button>
+      <div class="col">
+          <div class="card h-100 shadow">
+              <img src="image/2.png" class="card-img-center" alt="...">
+              <div class="card-body text-center">
+                  <h5 class="card-title font-family1">Single Room</h5>
+              </div>
+              <div class="card-footer shop-card-footer d-flex justify-content-between">
+                  <h1 class="text-warning">৳1500</h1>
+                  <a href="./Components/BookingDetails/Details2/index.html" class="booking-buttons btn btn-warning">
+                    
+                    <i class="fa fa-shopping-cart"> </i>Book Now</a>
+              </div>
+          </div>
       </div>
-    </div>
-  </header>
+      <div class="col">
+          <div class="card h-100 shadow">
+              <img src="image/3.png" class="card-img-center" alt="...">
+              <div class="card-body text-center">
+                  <h5 class="card-title font-family1">Double Room</h5>
+              </div>
 
-  <!-- ========== Booking Section 1 ========== -->
+              <div class="card-footer shop-card-footer d-flex justify-content-between">
+                  <h1 class="text-warning">৳4000</h1>
+                  <a href="./Components/BookingDetails/Details3/index.html" class="booking-buttons btn btn-warning">
+                    
+                    <i class="fa fa-shopping-cart"> </i>Book Now</a>
+              </div>
 
-
-  <section class="booking-container">
-    <div class="half-width">
-      <img src="./image/discount.png" alt="">
-    </div>
-    <div class="half-width2">
-      <form>
-        <div class="elem-group">
-          <label for="name">Your Name</label>
-          <input type="text" id="name" name="visitor_name" placeholder="Your Name">
-        </div>
-        <div class="elem-group">
-          <label for="email">Your E-mail</label>
-          <input type="email" id="email" name="visitor_email" placeholder="www@email.com" required>
-        </div>
-        <div class="elem-group">
-          <label for="phone">Your Phone</label>
-          <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" required>
-        </div>
-        <hr>
-        <div class="elem-group inlined">
-          <label for="adult">Adults</label>
-          <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
-        </div>
-        <div class="elem-group inlined">
-          <label for="child">Children</label>
-          <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
-        </div>
-        <div class="elem-group inlined">
-          <label for="checkin-date">Check-in Date</label>
-          <input type="date" id="checkin-date" name="checkin" required>
-        </div>
-        <div class="elem-group inlined">
-          <label for="checkout-date">Check-out Date</label>
-          <input type="date" id="checkout-date" name="checkout" required>
-        </div>
-        <button class="booking-btn" type="submit">Book The Rooms</button>
-      </form>
-    </div>
-  </section>
-
-  <!-- ========== Booking Card Section ========== -->
-
-
-  <section class="card-sections">
-    <h1 class="card-header">Booking Room</h1>
-    <div class="card">
-      <img src="./image/Single.png" style="width:100%">
-      <div class="container">
-        <div class="card-footer">
-          <div class="footer-left">
-            <h4><b>Single Room</b></h4>
           </div>
-          <div class="footer-right">
-            <button class="card-button">Book Now</button>
-          </div>
-        </div>
       </div>
+  </div>
+</div>
+</section>
+ <!-- ========== Services Section ========== -->
+
+ <section class="services-align2">
+  <h2 id="services-destination" class="text-center">OUR AWESOME SERVICES</h2>
+   <div class="container mt-5">
+    <div class="service-header row">
+     <div class="sec-1 col-md-6">
+       <img src="image/1.png" alt="">
+      </div>
+      <div class="services-align-first col-md-6">
+        <a href="Components/Restaurant/readphp.php" class="service-div">
+          <div><i class="fas fa-utensils"></i></div>
+         <div>
+           <h4>Restaurant</h4>
+           <p>Our restaurants will open you to world of new taste treasure.</p>
+         </div>
+        </a>
+       <a href="./Components/ShowBeauty/ShowBeauty.php" class="service-div">
+         <div><i class="fas fa-spa"></i></div>
+        <div>
+          <h4>Spa - Beauty & Health</h4>
+          <p>Our boutique day spa offers an extensive range of treatments, from your everyday ...</p>
+        </div>
+      </a>
+      <a href="./Components/ShowConference/ShowConference.php" class="service-div">
+       <div><i class="fas fa-person-booth"></i></div>
+      <div>
+        <h4>Conference Room</h4>
+        <p>The setup for a boardroom style conference room iѕ very ѕimрlе. It's the classic ...</p>
+      </div>
+    </a>
+    <div class="service-div">
+     <div><i class="fas fa-swimmer"></i></div>
+    <div>
+      <h4>Swimming Pool</h4>
+      <p>Pools come in all different types, designs, sizes, and shapes. Consult our ....</p>
     </div>
-    <div class="card">
-      <img src="./image/Double.png" style="width:100%">
-      <div class="container">
-        <div class="card-footer">
-          <div class="footer-left">
-            <h4><b>Double Room</b></h4>
+  </div>
+        </div>
+    </div>
+   </div>
+ </section>
+
+ <!-- ========== CONTACT SECTION ========== -->
+
+ 
+<section class="ftco-section">
+  <h2 id="contact-destination" class="contact-title">Contact Us</h2>
+  <div class="row justify-content-center">
+    <div class="col-md-10">
+        <div class="twoside row">
+          <div class="contact-align col-md-6">
+            <div class="contact-wrap">
+              <h3 class="mb-4">Send us a message</h3>
+              <form class="contactForm">
+                <div class="row">
+                  <div>
+                      <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                  <div> 
+                      <input type="email" class="form-control" placeholder="Email">
+                  </div>
+                  <div>
+                      <input type="text" class="form-control" placeholder="Subject">
+                    </div>
+                  <div>                  
+                      <textarea name="message" class="form-control" cols="15" rows="3" placeholder="Message"></textarea>
+                  </div>
+                  <div>
+                      <input type="submit" value="Send Message" class="btn btn-primary">
+                      <div class="submitting"></div>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
-          <div class="footer-right">
-            <button class="card-button">Book Now</button>
+          <div class="col-md-6">
+            <div class="contact-secound-side w-100 p-lg-5 p-4">
+              <h2>Contact us</h2>
+              <p class="mb-4">We're open for any suggestion or just to have a chat</p>
+              <div class="w-100 d-flex align-items-start">
+                  <p><i class="fa fa-map-marker"></i><span>Address:</span> 198 Dhaka 21th Street</p>
+              </div>
+              <div class="dbox w-100 d-flex align-items-center">
+                <div>
+                  <p><i class="fa fa-phone"></i><span>Phone:</span> <a href="tel://01860842420">+01 860842420</a></p>
+                </div>
+              </div>
+              <div class="dbox w-100 d-flex align-items-center">
+                <div>
+                  <p><i class="fa fa-paper-plane"></i><span>Email:</span> <a href="todevarman@gmail.com">todevarman@gmail.com</a></p>
+                </div>
+              </div>
+              <div class="dbox w-100 d-flex align-items-center">
+                <div class="text pl-3">
+                  <p><i class="fa fa-globe"></i><span>Website</span> <a href="#">familyhotel71.com</a></p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
     </div>
-    <div class="card">
-      <img src="./image/Family.png" alt="Avatar" style="width:100%">
-      <div class="container">
-        <div class="card-footer">
-          <div class="footer-left">
-            <h4><b>Extra Large</b></h4>
-          </div>
-          <div class="footer-right">
-            <button class="card-button">Book Now</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <img src="./image/Single.png" alt="Avatar" style="width:100%">
-      <div class="container">
-        <div class="card-footer">
-          <div class="footer-left">
-            <h4><b>VIP Room</b></h4>
-          </div>
-          <div class="footer-right">
-            <button class="card-button">Book Now</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <img src="./image/Single.png" alt="Avatar" style="width:100%">
-      <div class="container">
-        <div class="card-footer">
-          <div class="footer-left">
-            <h4><b>VIP Room</b></h4>
-          </div>
-          <div class="footer-right">
-            <button class="card-button">Book Now</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <img src="./image/Single.png" alt="Avatar" style="width:100%">
-      <div class="container">
-        <div class="card-footer">
-          <div class="footer-left">
-            <h4><b>VIP Room</b></h4>
-          </div>
-          <div class="footer-right">
-            <button class="card-button">Book Now</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <img src="./image/Single.png" alt="Avatar" style="width:100%">
-      <div class="container">
-        <div class="card-footer">
-          <div class="footer-left">
-            <h4><b>VIP Room</b></h4>
-          </div>
-          <div class="footer-right">
-            <button class="card-button">Book Now</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <img src="./image/Single.png" alt="Avatar" style="width:100%">
-      <div class="container">
-        <div class="card-footer">
-          <div class="footer-left">
-            <h4><b>VIP Room</b></h4>
-          </div>
-          <div class="footer-right">
-            <button class="card-button">Book Now</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
 
+    <!-- ========== FOOTER SECTION ========== -->
 
-  <!-- ========== Services Section ========== -->
-  <!-- <section class="services-container">
-    <div class="services">
-      <h1>Services</h1>
-    </div>
-  </section> -->
-
-
-  <!-- ========== Contact Section ========== -->
-
-
-  <section class="contact-section">
-    <h1>Contact Us</h1>
-    <div class="contact-sec">
-      <div class="section1">
-        <h4>Our For Location</h4>
-        <img src="./image/map.jpg" alt="">
+    <footer>
+      <div class="footer-top">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-3 col-sm-6 col-xs-12 segment-one sm-mb-30">
+                  <h3>ABOUT Us</h3>
+                  <p>We are a professional and reliable online shopping center providing a variety of hot selling products at reasonable prices and shipping them globally.</p>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 segment-two md-mb-30 sm-mb-30">
+                  <h2>Useful link</h2>
+                  <ul>
+                      <li><a href="#">Event</a></li>
+                      <li><a href="#">Support</a></li>
+                      <li><a href="#">Offer</a></li>
+                      <li><a href="#">Blog</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 segment-three sm-mb-30">
+                  <h2>Follow Us</h2>
+                  <p>E-Shop 71 offers excellent, comprehensive customer service every step of the way. Before you order, make real time inquiries through use of our live chat.For many gifts and offers please follow us</p>
+  
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-pinterest-square"></i></a>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 segment-four sm-mb-30">
+                  <h2>Our News Latter</h2>
+                  <p>We use DHL, EMS and UPS, etc. to deliver the products to major destinations, such as the US, Europe and Australia, in just a few days, which makes it convenient for your to get your wholesale orders. We have been focusing on combining the best quality.</p>
+                  <form action=""></form>
+                  <input type="email">
+                  <input type="submit" value="Subscribe">
+              </div>
+          </div>
       </div>
-
-      <!--SECTION 2-->
-
-      <div class="section2">
-        <div class="container">
-          <form action="/action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
-            </select>
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-            <input type="submit" value="Submit">
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== Footer Section ========== -->
-  <footer>
-    <div class="footer-ancor">
-      <a href="#"><i class="fa fa-facebook-official"></i></a>
-      <a href="#"><i class="fa fa-pinterest-p"></i></a>
-      <a href="#"><i class="fa fa-twitter"></i></a>
-      <a href="#"><i class="fa fa-flickr"></i></a>
-      <a href="#"><i class="fa fa-linkedin"></i></a>
-      <p class="w3-medium">
-        <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">@ Towhidul Islam</a>
-      </p>
-    </div>
+      <p class="footer-bottom-text">All Right reserved by &copy;Towhidul Islam  &copy;Arif  &copy;Shakib</p>
   </footer>
-
 </body>
 
 </html>

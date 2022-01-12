@@ -1,0 +1,76 @@
+/* ---------- HEAD SECTION ---------- */
+
+.sidebar-1{
+    background-color: turquoise;
+    height: 700px;
+    
+
+}
+.sidebar-1 img{
+    width: 40%;
+    margin-left: 50px;
+}
+.sidebar-1 a{
+    
+    text-decoration: none !important;
+}
+.sidebar-1 a{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin-left: 15px;
+}
+.sidebar-1 i{
+    margin-left: 10px;
+    color: rgb(245, 10, 167);
+    font-size: 19px;
+}
+.sidebar-homebutton{
+    margin-top: 80px;
+}
+.sidebar-homebutton a{
+    background-color: tomato;
+    border-radius: 20px;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+    margin-top: 30px;
+}
+.sidebar-2 {
+    margin-top: 30px;
+}
+
+/* ---------- NAVBAR ---------- */
+
+.navbar-nav{
+ text-align: end;
+}
+.nave-align1{
+    margin-top: 40px;
+}
+.nave-align1 img {
+    width: 40px;
+}
+/* ---------- SERVICES ADDED CSS ---------- */
+
+.foods{
+    background:linear-gradient(50deg, #1b1568 60%, #36c288 40%);
+    margin: 50px;
+    border-radius: 10px;
+    width: 35%;
+    border: 1px solid red;
+  }
+  body{
+      
+    background-position: center;
+      background-size: cover;     
+      background-repeat: no-repeat; 
+      background-image: linear-gradient(rgba(224, 218, 218, 0.507), rgba(15, 15, 15, 0.075)),url("https://image.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg");
+                          
+  }
+  .btnalign{
+      margin-left: 110px;
+  }

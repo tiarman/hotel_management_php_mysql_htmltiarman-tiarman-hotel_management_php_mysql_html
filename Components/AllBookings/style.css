@@ -1,0 +1,87 @@
+/* ---------- HEAD SECTION ---------- */
+
+.sidebar-1{
+    background-color: turquoise;
+    height: 700px;
+    
+
+}
+.sidebar-1 img{
+    width: 40%;
+    margin-left: 50px;
+}
+.sidebar-1 a{
+    
+    text-decoration: none !important;
+}
+.sidebar-1 a{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin-left: 15px;
+}
+.sidebar-1 i{
+    margin-left: 10px;
+    color: rgb(245, 10, 167);
+    font-size: 19px;
+}
+.sidebar-homebutton{
+    margin-top: 80px;
+}
+.sidebar-homebutton a{
+    background-color: tomato;
+    border-radius: 20px;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+    margin-top: 30px;
+}
+.sidebar-2 {
+    margin-top: 30px;
+}
+
+/* ---------- NAVBAR ---------- */
+
+.navbar-nav{
+ text-align: end;
+}
+.nave-align1{
+    margin-top: 40px;
+}
+.nave-align1 img {
+    width: 40px;
+}
+
+.adminAlign i{
+    color: red;
+    width: 100px;
+    text-align: center;
+
+}
+.adminAlign div{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 300px;
+}
+.tableAlign{
+    border: 3px solid red;
+    text-align: center;
+    margin: 100px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+}
+.tableAlign td{
+    border: 2px solid rgb(17, 17, 17);
+    width: 500px;
+}
+.alignTitle{
+    text-align: center;
+    margin-top: 10px;
+}

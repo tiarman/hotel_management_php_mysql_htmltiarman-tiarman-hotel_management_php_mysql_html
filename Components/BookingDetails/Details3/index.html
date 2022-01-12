@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- ========== Bootstrap ========== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- ========== Font ========== -->
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <!-- ========== ICON ========== -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- ========== Font End ========== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- ========== HEADER ========== -->
+
+  <div class="containers">
+    <div class="bubble">
+      <img src="../../../image/New folder/bubble1.png" class="bubble1">
+      <img src="../../../image/New folder/bubble2.png" class="bubble2">
+    </div>
+    <div class="left-div">
+      <div class="left-wrapper">
+        <img src="../../../image/New folder/logo.png" class="logo">
+      </div>
+    </div>
+    <div class="right-div">
+      <div class="nav-menu">
+        <ul class="nav-items">
+          <li><a href="../../../index.html">BACKHOME</a></li>
+          <li><a href="../../index.html"></a></li>
+          <li><a href="../../index.html"></a></li>
+          <li><a href="../../index.html"></a></li>
+          <li><a href="../../index.html"></a></li>
+          <li><a class="login-align" href="#"></a></li>
+        </ul>
+
+        <ul class="social-media">
+          <li><a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://twitter.com/" target="blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.whatsapp.com/?lang=en" target="blank"><i class="fab fa-whatsapp"></i></a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="content-text">
+          <img src="../../../image/3.png" alt="">
+          <h1>DOUBLE ROOM</h1>
+          <p>Best Comfortable hotel room you ever seen. The facilities of the hotel is very comfortable. Book the room
+            and enjoy.</p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <h1>ROOM SERVICES</h1>
+          <div class="service-align row">
+            <div class="col-md-4">
+              <div class="service-align2">
+                <i class="fas fa-check-circle"> Double Bed</i>
+                <i class="fas fa-check-circle"> 80 Sq mt</i>
+                <i class="fas fa-check-circle"> 6 Persons</i>
+                <i class="fas fa-check-circle"> Free Internet</i>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-align2">
+                <i class="fas fa-check-circle"> Free Wi-Fi</i>
+                <i class="fas fa-check-circle"> Breakfast Inc</i>
+                <i class="fas fa-check-circle"> Private Balcony</i>
+                <i class="fas fa-times"> Free Newspaper</i>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-align2">
+                <i class="fas fa-times"> Flat Screen Tv</i>
+                <i class="fas fa-check-circle"> Full Ac</i>
+                <i class="fas fa-check-circle"> Beach View</i>
+                <i class="fas fa-check-circle"> Room Service</i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-image">
+          <div class="half-width2">
+            <form action="doubleRoom.php" method="post">
+              <div class="elem-group">
+                <label for="Room Type">Room Type</label>
+                <input type="text" id="room" name="book_name" value="Double Room">
+
+              </div>
+              <div class="elem-group">
+                <label for="name">User Name</label>
+                <input type="text" id="name" name="signup_user" placeholder="Your Name">
+              </div>
+
+              <div class="elem-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="visitor_name" placeholder="Your Name">
+              </div>
+              <div class="elem-group">
+                <label for="email">Your E-mail</label>
+                <input type="email" id="email" name="visitor_email" placeholder="www@email.com" required>
+              </div>
+              <div class="elem-group">
+                <label for="phone">Your Phone</label>
+                <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" required>
+              </div>
+              <hr>
+              <div class="elem-group inlined">
+                <label for="adult">Adults</label>
+                <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+              </div>
+              <div class="elem-group inlined">
+                <label for="child">Children</label>
+                <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+              </div>
+              <div class="elem-group inlined">
+                <label for="checkin-date">Check-in Date</label>
+                <input type="date" id="checkin-date" name="checkin" required>
+              </div>
+              <div class="elem-group inlined">
+                <label for="checkout-date">Check-out Date</label>
+                <input type="date" id="checkout-date" name="checkout" required>
+              </div>
+              <button class="booking-btn" type="submit">Book The Rooms</button>
+            </form>
+          </div>
+          <br />
+          <div>
+            <br/>
+            <br/>
+            <h1>Need Help ?</h1>
+            <div class="services-help">
+              <p>If you have any question please don't hesitate to contact us</p>
+
+              <p><i class="fas fa-envelope-open-text"> tiarmancr@gmail.com</i></p>
+              <p><i class="fas fa-phone-alt">+8801 860842420</i></p>
+            </div>
+          </div>
+          <br />
+          <br />
+          <h2>Latest Post</h2>
+          <div class="details-3">
+
+            <img src="../../../image/news7.jpeg" alt="">
+            <h5>North Korea To Focus ...</h5>
+          </div>
+          <div class="details-3">
+
+            <img src="../../../image/news8.jpeg" alt="">
+            <h5>New Year New Textbo ...</h5>
+          </div>
+          <div class="details-3">
+
+            <img src="../../../image/news9.jpeg" alt="">
+            <h5>Central Africa Mine Bl ...</h5>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- ========== FOOTER SECTION ========== -->
+
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12 segment-one sm-mb-30">
+            <h3>ABOUT Us</h3>
+            <p>We are a professional and reliable online shopping center providing a variety of hot selling products at
+              reasonable prices and shipping them globally.</p>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 segment-two md-mb-30 sm-mb-30">
+            <h2>Useful link</h2>
+            <ul>
+              <li><a href="#">Event</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Offer</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 segment-three sm-mb-30">
+            <h2>Follow Us</h2>
+            <p>E-Shop 71 offers excellent, comprehensive customer service every step of the way. Before you order, make
+              real time inquiries through use of our live chat.For many gifts and offers please follow us</p>
+
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+            <a href=""><i class="fa fa-pinterest-square"></i></a>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 segment-four sm-mb-30">
+            <h2>Our News Latter</h2>
+            <p>We use DHL, EMS and UPS, etc. to deliver the products to major destinations, such as the US, Europe and
+              Australia, in just a few days, which makes it convenient for your to get your wholesale orders. We have
+              been focusing on combining the best quality.</p>
+            <form action=""></form>
+            <input type="email">
+            <input type="submit" value="Subscribe">
+          </div>
+        </div>
+      </div>
+      <p class="footer-bottom-text">All Right reserved by &copy;Towhidul Islam Arman</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  /* ---------- HEAD SECTION ---------- */
+  .header-container{
+    height: 110vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .left-div{
+    flex-basis: 15%;
+  }
+  
+  .left-wrapper{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    z-index: 1;
+  }
+  
+  .logo{
+    height: 80px;
+    cursor: pointer;
+  }
+  .right-div{
+    flex-basis: 85%;
+  }
+  
+  .nav-menu{
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .nav-items{
+    display: flex;
+    flex-basis: 70%;
+    align-items: center;
+  }
+  
+  .nav-items li{
+    list-style: none;
+    margin-right: 55px;
+    font-size: 13px;
+    position: relative;
+  }
+  
+  .nav-items li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 8px;
+  }
+  
+  .nav-items li a:hover{
+    background-color: rgb(8, 8, 8);
+    border-radius: 40% 10%;
+    transition: 1.0s;
+    color: white;
+  
+  }
+  .login-align{
+    background-color: rgb(0, 0, 0);
+    border-radius: 30% 0%;
+    color: #ffffff !important;
+    font-size: 15px;
+  }
+  
+  .social-media{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+  }
+  
+  .social-media li{
+    list-style: none;
+    margin-right: 15px;
+    height: 30px;
+    width: 30px;
+    background: rgb(255, 251, 251);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 6px 10px rgba(236, 19, 19, 0.2);
+  }
+  
+  .social-media li i{
+    color: #de4e95;
+  }
+  
+  .social-media li:hover{
+    transform: scale(1.08);
+  }
+
+  .content{
+  display: flex;
+  margin-top: 70px;
+}
+
+.content-text{
+  flex-basis: 35%;
+  margin-top: 30px;
+}
+
+.content-img img {
+    width: 1380px;
+    height: 500px;
+    margin-left: -200px;
+}
+.content-img{
+margin-top: 45px;
+
+}
+.content-siv{
+    position: absolute;
+  top: 55%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  background: rgba(217, 111, 231, 0.6); /* Black background with 0.5 opacity */
+  color: #000000;
+  width: 65%;
+  padding: 20px;
+  border-radius: 30px;
+}
+.content-siv h1{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+}
+  
+  /* ---------- BOOKING CARD ---------- */
+  
+  .shop-card{
+    border: 0;
+  }
+  .shop-card-footer{
+    background-color: #383d3c4f;
+  }
+  .font-family1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+  }
+  .card-img-center{
+    width: 90%;
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+  }
+  .card-container{
+      background-image: url(../../image/backg9.jpg);
+      margin-top: -38px;
+    padding: 30px;
+    
+  }
+  .card-container h2{
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .booking-buttons i{
+    font-size: 20px;
+    margin-right: 7px;
+  
+  }
+  .booking-buttons i{
+    font-size: 20px;
+    margin-right: 7px;
+    margin-top: 10px;
+  
+  }
+  
+  /* ---------- FOOTER SECTION ---------- */
+  
+  
+  
+  .footer-top{
+    background: #111;
+    padding: 40px 0;
+    color: rgb(196, 184, 184);
+  }
+  .segment-one h3{
+    font-family: Courgette;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 10px 0;
+  }
+  .segment-two h2{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+  }
+  .segment-two h2::before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+  }
+  .segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .segment-two ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height: 40px;
+  }
+  .segment-two ul li a{
+    color: #999;
+    text-align: none;
+  }
+  .segment-three h2{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+  }
+  .segment-three h2::before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+  }
+  .segment-three a{
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+  .segment-three a i{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+  }
+  .segment-four h2{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+  }
+  .segment-four h2::before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+  }
+  .segment-four from input [type=submit]{
+    background: #c65039;
+    border: none;
+    padding: 3px 15px;
+    margin-left: -5px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .footer-bottom-text{
+    text-align: center;
+    background: #000;
+    line-height: 75px;
+  }
+  @media only screen and (min-width :768px) and (max-width :991px){
+    .md-mb-30{
+        margin-bottom: 30px;
+    }
+  }
+  @media only screen and (max-width: 767px){
+    .sm-mb-30{
+        margin-bottom: 30px;
+    }
+    .footer-top{
+        padding: 50px 0;
+    }
+  }
